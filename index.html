@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Design</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="header">
+          <h1>Choose Which Avatar You Want</h1>
+            <div class="imgs">
+              <img src="./images/guy-1.jpg" alt="">
+              <img src="./images/guy-2.jpg" alt="">
+              <img src="./images/guy-3.jpg" alt="">
+              <img src="./images/guy-4.jpg" alt="">
+              <img src="./images/guy-5.jpg" alt="">
+              <img src="./images/girl-1.jpg" alt="">
+              <img src="./images/girl-2.jpg" alt="">
+              <img src="./images/girl-3.jpg" alt="">
+              <img src="./images/girl-4.jpg" alt="">
+              <img src="./images/girl-5.jpg" alt="">
+            </div>
+        </div>
+        <div class="first-name">
+          <label for="f-name">First Name :</label>
+          <input id="f-name" class="f-name" type="text" autocomplete="false" />
+        </div>
+        <div class="last-name">
+          <label for="l-name">Last Name :</label>
+          <input id="l-name" class="l-name" type="text" autocomplete="false" />
+        </div>
+        <div class="c-job">
+          <label for="job">Current Job :</label>
+          <input id="job" class="job" type="text" autocomplete="false" />
+        </div>
+        <div class="d-projects">
+          <label for="pr">Projects Done :</label>
+          <input id="pr" class="projects" type="number" autocomplete="false" />
+        </div>
+        <div class="c-followers">
+          <label for="fw">Current Followers :</label>
+          <input id="fw" class="followers" type="number" autocomplete="false" />
+        </div>
+        <div class="url">
+          <label for="s">Social Media Link :</label>
+          <input id="s" class="social-url" type="url" autocomplete="false" />
+        </div>
+        <div class="sub-btn">
+          <input class="submit-btn" type="submit" value="Submit" />
+        </div>
+      </form>
+
+      <div class="container result">
+        <div class="box">
+          <div class="image">
+            <img class="user-img" src="" alt="" />
+          </div>
+          <div class="txt">
+            <h2 class="user-name"></h2>
+            <p class="user-job"></p>
+          </div>
+        </div>
+        <div class="status">
+          <div class="stat-box">
+            <h4 class="projects-done"></h4>
+            <p>Projects</p>
+          </div>
+
+          <div class="stat-box">
+            <h4 class="current-followers"></h4>
+            <p>Followers</p>
+          </div>
+        </div>
+        <div class="follow-btn">
+          <a href="#" class="f-btn" target="_blank">FOLLOW</a>
+        </div>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="main.js"></script>
+  </body>
+</html>
